@@ -831,3 +831,24 @@ footer .inner .copyright .two {
   line-height: 2em;
   margin-bottom: 14px;
 }
+
+
+
+.flash{
+  position: fixed;
+  z-index: 99999999999999999;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.flash .vid{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.super_box{
+  display: none;
+}

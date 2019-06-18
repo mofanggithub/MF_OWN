@@ -96,3 +96,19 @@ function scroll() {
         top: document.body.scrollTop
     }
 }
+
+
+
+function toTop(){
+	setTimeout(function(){
+		$(".flash").animate({opacity: "0"});
+	},10000);
+	setTimeout(function(){
+		$(".flash").hide();
+	},11000);
+	setTimeout(function(){
+		$(".super_box").fadeIn(1000);
+	},10000)
+}
+
+toTop();
